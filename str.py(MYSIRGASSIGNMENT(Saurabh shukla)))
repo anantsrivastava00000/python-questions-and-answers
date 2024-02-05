@@ -1,0 +1,38 @@
+ # ASSIGNMENT 26
+# Q1.---------------------------------------------
+# s1='anant'   #input("Enter a string")
+# alphabet='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+# for e in s1:
+#     if e in alphabet:
+#         pass
+#     else:
+#         print("string have atleast on character which is not aplhabet")
+#         break
+# else:
+#     print("string has only alphabets")
+
+# Q2.---------------------------------------------
+
+# s1='anant' #input("Enter a string") 
+# chr=input("Enter a character")
+# if chr in s1:
+#     print(chr,"is in",s1)
+# else:
+#     print(chr,"is not in",s1)
+
+# Q3.----------------------------------------------
+# s1='my name is anant'
+# vowels='aeiouAEIOU'
+# count=0
+# for e in s1:
+#     if e in vowels:
+#         count+=1
+# print(count)
+# -------------------------------------------------
+# Q4.
+# s1="my name is anant"
+# l1=s1.split(' ')
+# print(len(l1))
+# Q5.-------------------------------------------------
+# s1='Anant'
+# print(s1[::-1])
