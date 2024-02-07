@@ -1,4 +1,4 @@
- # ASSIGNMENT 26
+ # ASSIGNMENT 26 and ASSIGNMENT 27
 # Q1.---------------------------------------------
 # s1='anant'   #input("Enter a string")
 # alphabet='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
@@ -36,3 +36,48 @@
 # Q5.-------------------------------------------------
 # s1='Anant'
 # print(s1[::-1])
+
+
+# ASSIGNMENT 27
+# # Q1.
+# s1="Mysirg education services pvt ltd" #input("Enter a string")
+# l1=s1.split(' ')
+# print(l1[::-1]) 
+# ---------------------------------
+# # Q2
+  
+# s1="LCM of 12 and 24 is 24" #input("Enter a string")
+# l1=[]
+# for e in s1.split(' '):
+#     try:
+#         l1.append(int(e))
+#     except:
+#         pass
+# print(l1)
+# --------------------------------------------
+# # Q3
+# s1="abcba" #input("Enter a string")
+# if s1[::-1]==s1:
+#     print("Palindrome")
+# else:
+#     print("Not a Palindrome ")
+# --------------------------------------------
+# # Q4.   
+# s1="mysirg education services private ltd" #input("Enter a string")
+# s2=s1.upper()
+# print(s2)
+# -----------------------------------------------
+# Q5.
+# s1="Anant,Prabhat,Heena,Niraj,Shashank,Sameer"  #input("Enter a string")
+# l1=s1.split(',')
+# max=0
+# for e in l1:
+#     if max<len(e) :
+#         max=len(e)
+ 
+# for e in l1:
+#     if max==len(e):
+#         print(e)
+
+
+
